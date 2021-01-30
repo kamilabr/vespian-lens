@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 /*
 	Lens by HTML5 UP
@@ -137,16 +137,16 @@ input, select, textarea {
 		}
 
 	body {
-		background-color: #fff;
-		color: #aaa;
+		background-color: black;
+		color: white;
 	}
 
 	body, input, select, textarea {
-		font-family: "Roboto", Helvetica, sans-serif;
-		font-weight: 400;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-weight: 300;
 		line-height: 1.65;
 		font-size: 1em;
-		color: #aaa;
+		color: white;
 	}
 
 	a {
@@ -161,11 +161,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #00D3B7;
+			color: #d3d3d3;
 		}
 
 	strong, b {
-		font-weight: 400;
+		font-weight: 300;
 		color: #555;
 	}
 
@@ -178,10 +178,11 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 400;
+		font-weight: 300;
 		line-height: 1.25;
 		margin: 0 0 0.5em 0;
-		color: #555;
+		padding: 0 0.32em;
+		color: #fff;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -306,8 +307,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: #00D3B7;
-			color: #00D3B7;
+			border-color: #d3d3d3;
+			color: #d3d3d3;
 		}
 
 			input[type="submit"]:hover:active,
@@ -381,7 +382,7 @@ input, select, textarea {
 		color: #555;
 		display: block;
 		font-size: 0.9em;
-		font-weight: 400;
+		font-weight: 300;
 		margin: 0 0 0.625em 0;
 	}
 
@@ -418,7 +419,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #00D3B7;
+			border-color: #d3d3d3;
 		}
 
 	select {
@@ -513,7 +514,7 @@ input, select, textarea {
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
-			font-weight: 400;
+			font-weight: 300;
 			margin: 0;
 			padding-left: 2.4em;
 			padding-right: 0.75em;
@@ -614,7 +615,7 @@ input, select, textarea {
 			line-height: 1;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
+			font-weight: 900;
 		}
 
 		.icon > .label {
@@ -626,7 +627,7 @@ input, select, textarea {
 		}
 
 		.icon.solid:before {
-			font-weight: 900;
+			font-weight: 600;
 		}
 
 		.icon.brands:before {
@@ -676,7 +677,7 @@ input, select, textarea {
 
 		dl dt {
 			display: block;
-			font-weight: 400;
+			font-weight: 300;
 			margin: 0 0 0.625em 0;
 		}
 
@@ -839,7 +840,7 @@ input, select, textarea {
 		top: 0;
 		width: 22.5em;
 		height: 100%;
-		background: #fff;
+		background: #black;
 		outline: 0;
 		overflow-x: hidden;
 		overflow-y: auto;
@@ -936,7 +937,7 @@ input, select, textarea {
 
 		#header h1 {
 			font-size: 2.25em;
-			font-weight: 700;
+			font-weight: 300;
 		}
 
 /* Footer */
